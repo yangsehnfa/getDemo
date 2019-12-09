@@ -14,6 +14,6 @@ public class HelloServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("helloworlddd");
+        resp.getWriter().println("helloworld");
     }
 }
